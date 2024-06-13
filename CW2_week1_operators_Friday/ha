@@ -1,0 +1,11 @@
+vorudi = input()
+radif = vorudi.split(' ')
+y = int(radif[0])
+x = int(radif[1])
+
+if x < 11:
+    print("rigth",(11-y),x )
+else:
+    print("left", end=' ')
+    print(11-y,end=' ')
+    print(21-x)

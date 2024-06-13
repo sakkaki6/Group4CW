@@ -8,3 +8,4 @@ def compare(list1):
 inp1 =input('enter a list:')
 
 compare(inp1)
+
